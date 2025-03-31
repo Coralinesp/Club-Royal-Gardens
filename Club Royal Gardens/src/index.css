@@ -1,0 +1,24 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Esto asegura que el body y el html ocupen el 100% de la ventana */
+  width: 100%;
+}
+
+body {
+  display: flex;
+  place-items: center;
+  flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #0891b2; /* Agregado para fondo en el body */
+}
+
+#root {
+  width: 100%; /* Ahora ocupa todo el ancho disponible */
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* Se asegura que los elementos dentro se apilen verticalmente */
+  align-items: center;
+}
